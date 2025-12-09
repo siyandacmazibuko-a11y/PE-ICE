@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="#ffffff" />
+  <g fill="#4b7bff" filter="url(#glow)">
+    <text x="50%" y="45%" font-family="'Fredoka One', 'Baloo 2', sans-serif" font-size="220" font-weight="700" text-anchor="middle">PE ICE</text>
+  </g>
+  <text x="50%" y="72%" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="#4b7bff" text-anchor="middle">PURIFIED &amp; UV STERILISED</text>
+</svg>
